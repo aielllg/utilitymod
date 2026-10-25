@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "utilitymod",
+  "version": "${version}",
+  "name": "Utility Mod",
+  "description": "Клиентские модули с красивым ClickGUI (Right Shift) и HUD.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.utilitymod.UtilityMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "java": ">=8"
+  }
+}
